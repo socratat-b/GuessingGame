@@ -21,7 +21,7 @@
     } else if (answer !== randomNum) {
       answer = null;
       isVisible = true;
-      console.log(randomNum);
+
       setTimeout(() => {
         isVisible = false;
       }, 1000);
